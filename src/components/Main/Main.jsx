@@ -17,16 +17,10 @@ const Main = () => {
 
   return (
     <Card className={classes.root}>
-      <CardHeader title="Expense Tracker" subheader="Powered by Speechly" />
+      <CardHeader title="Expense Tracker" />
       <CardContent>
         <Typography variant="h5" align="center">
           Total Balance $100
-        </Typography>
-        <Typography
-          variant="subtitle1"
-          style={{ lineHeight: "1.5em", marginTop: "20px" }}
-        >
-          InfoCard.............
         </Typography>
         <Divider />
         <Form />
